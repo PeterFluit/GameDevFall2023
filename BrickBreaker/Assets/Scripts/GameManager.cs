@@ -1,18 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public BrickData brickData; // Reference to the BrickData Scriptable Object
+    public GameManagerData gameManagerData; // Reference to the GameManagerData Scriptable Object
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    // Rest of your GameManager code...
 }
