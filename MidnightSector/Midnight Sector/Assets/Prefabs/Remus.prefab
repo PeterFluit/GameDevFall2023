@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 7044616947763536272}
   - component: {fileID: 8503381499142388306}
   - component: {fileID: -2941840095826699474}
+  - component: {fileID: -4914880401659392096}
+  - component: {fileID: -8341673605268441331}
   m_Layer: 0
   m_Name: Remus
   m_TagString: Untagged
@@ -111,3 +113,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be3f65e129d0e2b459907a91e458a040, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-4914880401659392096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8846052331046551621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 506b28f4230a8254bb05e7e162d85d54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &-8341673605268441331
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8846052331046551621}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.041177373, y: 0.011426875, z: 0.03366516}
+  m_Center: {x: -0.0044319467, y: 0.0017018451, z: 0}
